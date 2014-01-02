@@ -455,7 +455,7 @@ module ZendeskAPI
       super
 
       # Needed for proper Role sideloading
-      self.role_id = role.name if key?(:role)
+      # self.role_id = role.name if key?(:role)
     end
 
     any :password
